@@ -4,7 +4,6 @@ from flask import Flask, request, Response
 import config
 
 app = Flask(__name__)
-con = config.Config()
 # s3 = boto3.client('s3',
 #                   aws_access_key_id=con.AWS_ACCESS_KEY,
 #                   aws_secret_access_key=con.AWS_SECRET_KEY)

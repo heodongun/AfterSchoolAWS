@@ -1,7 +1,5 @@
 # import boto3
 from flask import Flask, request, Response
-# import pymysql
-import config
 
 app = Flask(__name__)
 # s3 = boto3.client('s3',
